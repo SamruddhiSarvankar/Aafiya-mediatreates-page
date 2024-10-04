@@ -1,0 +1,147 @@
+table{
+    font-family:'Times New Roman', Times, serif ;
+    color: black;
+}
+.tablenav1{
+    margin-left: 10%;
+}
+
+.search{
+    background-color: rgb(11, 92, 232) !important; 
+    height: 55px;
+    
+     /* position: relative;  */
+}
+.searchicon{
+    z-index: 1;
+ position: relative; 
+color: white;
+right: -80px;
+z-index: 1;
+}
+.navbar2{
+    background-color: rgb(91, 186, 249);
+}
+.btnc1{
+    background-color: rgb(51, 142, 203);
+  height: 3rem;
+  border: none;
+  padding: 10px 40px 10px 40px;
+}
+
+.nav3 .nav-item .nav-link{
+    color: black;
+}
+.nav3 a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 36px;
+    text-decoration: none;
+    font-size: 17px;
+    border-bottom: 3px solid transparent;
+  }
+.nav3 a.activeted{
+    border-bottom: 3px solid rgb(75, 197, 242);
+}
+
+.sectionend{
+    padding-top: 3rem;
+    border-bottom: 3px dotted rgb(81, 189, 225);
+}
+.section ul.a{
+    list-style-type:circle;
+    color: #17d0de;
+}
+aside {
+    float: right;
+    font-style: italic;
+    color: #29627e;
+  }
+  
+  aside > p {
+    margin: 0.5rem;
+  }
+  form>i{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #12bdc9;
+  }
+  .b{
+    color: #12bdc9;
+  }
+  .b span{
+    color: black;
+  }
+  .c{
+    border-bottom: #12bdc9 solid 1px;
+  }
+  .d{
+    border-left:3px solid #12bdc9;
+    float: left;
+  }
+  .square{
+    background-color: rgb(251, 212, 218);
+    height: 18rem;
+    
+  }
+  .c3{
+    background-color: #e3f7f8;
+  }
+  .card3{
+    border-radius: 0%;
+    width: 90%;
+  }
+  .card4{
+    width: 100%;
+    height: 20vh;
+    border:3px dotted red;
+  }
+  .owl-carousel3 .item{
+    margin: 6%; 
+  }
+  .e{
+    border-bottom: red 2px solid;
+  }
+ 
+  .sec6{
+    background-image: url("/img/bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  }
+  .foot{
+    background-image: url("/img/bggg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-top: -4%;
+  }
+  .foot .row b{
+    color: #12bdc9;
+  }
+  .borderfooter{
+    border: 1px solid #808282;
+  }
+ .lastfoot{
+  background-color: #61c7e4;
+ }
+ div.footer,div.sec6{
+  position: relative;
+ }
+ div.upcard{
+  position: absolute;
+  top: 375rem;
+  z-index: 1;
+right:4rem;
+ }
+@media screen and (max-width: 991px) {
+    .tablenav1{
+        margin-left: 0%;
+    }
+    aside{
+        width: 100%;
+    }
+  } 
